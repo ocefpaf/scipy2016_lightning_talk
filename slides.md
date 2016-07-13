@@ -4,13 +4,10 @@
 
 ---
 
-# Community Powered Packaging:
-## conda-forge
+# How to help the community simple in 4-steps
 
 > - Don't ask what conda-forge can do for you
 > - Ask what you can do for conda-forge ;-)
-
-<!-- ![](images/anvil.png) -->
 
 # 1) Browse for packages
 
@@ -18,7 +15,16 @@
 
 https://conda-forge.github.io/feedstocks.html
 
-# 2) Cannot find a package?
+# 2) Open issues
+
+![](images/github_issues.png)
+
+# 3) The recipe exists
+## but it is outdated.
+
+![](images/github_maintaince_changes.png)
+
+# 4) Cannot find a package?
 ## Send a PR!
 
 > - The point of entry is [staged-recipes](https://github.com/conda-forge/staged-recipes)
@@ -30,14 +36,6 @@ https://conda-forge.github.io/feedstocks.html
 
 ![](images/github_linter.png)
 
-# 3) The recipe exists
-## but it is outdated.
-
-![](images/github_maintaince_changes.png)
-
-# 4) Open issues
-
-![](images/github_issues.png)
 
 # Extra 0: forge like pro
 ### `conda smithy rerender`
