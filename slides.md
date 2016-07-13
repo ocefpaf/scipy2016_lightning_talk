@@ -4,7 +4,8 @@
 
 ---
 
-# How to help the community simple in 4-steps
+# How to help the community simple in
+## 4-steps
 
 > - Don't ask what conda-forge can do for you
 > - Ask what you can do for conda-forge ;-)
