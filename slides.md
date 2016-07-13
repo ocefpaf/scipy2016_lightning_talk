@@ -19,7 +19,7 @@ https://conda-forge.github.io/feedstocks.html
 
 > - The point of entry is [staged-recipes](https://github.com/conda-forge/staged-recipes)
 > - The tooling lives in [conda-smithy](https://github.com/conda-forge/conda-smithy)
-> - But you really need is `conda smithy recipe-lint`
+> - But what you really need is `conda smithy recipe-lint`
 > - Remember to check the [example](https://github.com/conda-forge/staged-recipes/blob/master/recipes/example/meta.yaml) recipe before sending the PR
 
 # The [linter](https://github.com/conda-forge/conda-forge-webservices/tree/master/conda_forge_webservices) in action

@@ -9,17 +9,11 @@ Use the Makefile to create and manage the slides:
 
 ```bash
 make
-```
 
-```bash
 make clean
-```
 
-```bash
 make serve  # Serve the slides at http://localhost:8000
-```
 
-```bash
 make reveal.js
 ```
 
