@@ -1,5 +1,5 @@
 % How to [conda-forge](https://conda-forge.github.io/)
-%
+% Filipe Fernandes
 % 2016 SciPy
 
 ---
@@ -50,4 +50,12 @@ conda smithy rerender
 
 [Mailing list](https://groups.google.com/forum/#!forum/conda-forge)
 
-And help us to review new packages [staged-recipes](https://github.com/conda-forge/staged-recipes)
+. . .
+
+Help us to review new packages [staged-recipes](https://github.com/conda-forge/staged-recipes)!
+
+. . .
+
+And catch Phil Elson's talk tomorrow:
+
+``Community Powered Packaging with conda-forge (3:30-4:00)``
