@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>How to conda-forge</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="slides.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">How to <a href="https://conda-forge.github.io/">conda-forge</a></h1>
+  <h3 class="date">2016 SciPy</h3>
+</section>
+
+<section id="community-powered-packaging-with-conda-forge" class="slide level1">
+<h1>Community Powered Packaging with conda-forge</h1>
+<ul>
+<li class="fragment">Don't ask what conda-forge can do for you</li>
+<li class="fragment">Ask what you can do for conda-forge ;-)</li>
+</ul>
+</section>
+<section id="browse-for-packages" class="slide level1">
+<h1>1) Browse for packages</h1>
+<figure>
+<img src="images/package_list.png" />
+</figure>
+<p>https://conda-forge.github.io/feedstocks.html</p>
+</section>
+<section id="cannot-find-the-package-you-need-send-a-pr" class="slide level1">
+<h1>2) Cannot find the package you need? Send a PR!</h1>
+<ul>
+<li class="fragment">The point of entry is <a href="https://github.com/conda-forge/staged-recipes">staged-recipes</a></li>
+<li class="fragment">The tooling lives in <a href="https://github.com/conda-forge/conda-smithy">conda-smithy</a></li>
+<li class="fragment">But you really need is <code>conda smithy recipe-lint</code></li>
+<li class="fragment">Remember to check the <a href="https://github.com/conda-forge/staged-recipes/blob/master/recipes/example/meta.yaml">example</a> recipe before sending the PR</li>
+</ul>
+</section>
+<section id="the-linter-in-action" class="slide level1">
+<h1>The <a href="https://github.com/conda-forge/conda-forge-webservices/tree/master/conda_forge_webservices">linter</a> in action</h1>
+<figure>
+<img src="images/github_linter.png" />
+</figure>
+</section>
+<section id="the-recipe-exists-but-it-is-outdate" class="slide level1">
+<h1>3) The recipe exists but it is outdate?</h1>
+<figure>
+<img src="images/github_maintaince_changes.png" />
+</figure>
+</section>
+<section id="open-issues" class="slide level1">
+<h1>4) Open issues</h1>
+<figure>
+<img src="images/github_issues.png" />
+</figure>
+</section>
+<section id="extra-forge-like-pro" class="slide level1">
+<h1>Extra: forge like pro!</h1>
+<figure>
+<img src="images/github_rerender.png" />
+</figure>
+<pre class="shell"><code>conda smithy rerender</code></pre>
+</section>
+<section id="how-to-find-us" class="slide level1">
+<h1>How to find <a href="https://github.com/orgs/conda-forge/people">us</a>?</h1>
+<p><a href="https://github.com/conda-forge">Github</a></p>
+<p><a href="https://gitter.im/conda-forge/conda-forge.github.io">Gitter</a></p>
+<p><a href="https://groups.google.com/forum/#!forum/conda-forge">Mailing list</a></p>
+<p>And help us to review new packages <a href="https://github.com/conda-forge/staged-recipes">staged-recipes</a></p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
